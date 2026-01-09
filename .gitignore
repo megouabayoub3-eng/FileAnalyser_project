@@ -1,0 +1,49 @@
+```
+# Gradle
+.gradle/
+build/
+*.gradle
+!settings.gradle.kts
+!composeApp/build.gradle.kts
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.kotlin_metadata
+*.kotlin_builtins
+
+# JVM
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.iws
+*.ipr
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env.*
+```
